@@ -1,10 +1,22 @@
 // Mixins Here
 
 .btn-template(@h, @w){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
     height: @h;
     width: @w;
     background-color: @btn-bg-color;
     color: white;
     border-radius: 5px;
+
+    &:hover {
+        
+        background-color: white;
+        color: @btn-bg-color;
+        
+      }
     
+
 }
