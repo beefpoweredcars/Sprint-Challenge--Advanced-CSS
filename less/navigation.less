@@ -1,11 +1,8 @@
 // Navigation code here
 
 .nav{
-
-    display: flex;
+    .flex(center, center);
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 100%;
 
     h1{
@@ -13,21 +10,15 @@
     }
 
     .links{
-        display: flex;
+        .flex(center, center);
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
         width: 100%;
         margin-top: 2%;
         margin-bottom: 2%;
 
         a{
-            text-decoration: none;
-            color: black;
-            font-size: 1.8rem;
-            width: 20%;
-            text-align: center;
-            
+            .a();
+       
             @media @phone{
                 width: 15%;
                 font-size: 1.4rem;

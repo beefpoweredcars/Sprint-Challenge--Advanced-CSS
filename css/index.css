@@ -1,3 +1,10 @@
+.a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.8rem;
+  width: 20%;
+  text-align: center;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -162,9 +169,9 @@ p {
 }
 .nav {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 100%;
 }
 .nav h1 {
@@ -172,9 +179,9 @@ p {
 }
 .nav .links {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
   width: 100%;
   margin-top: 2%;
   margin-bottom: 2%;
