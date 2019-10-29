@@ -1,1 +1,41 @@
 // Mixins Here
+
+.btn-template(@h, @w){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    height: @h;
+    width: @w;
+    background-color: @btn-bg-color;
+    color: white;
+    border-radius: 5px;
+
+    &:hover {
+        
+        background-color: white;
+        color: @btn-bg-color;
+        
+      }
+
+    @media @phone{
+        width: 100%;
+        height: 50px;
+    }
+}
+
+
+.flex(@justify, @align){
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+
+.a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+    width: 20%;
+    text-align: center;
+}
